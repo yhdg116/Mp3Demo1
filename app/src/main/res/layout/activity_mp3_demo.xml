@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".Mp3Demo">
+
+    <TextView
+        android:id="@+id/state"
+
+        android:layout_width="69dp"
+
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="396dp" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="start" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="66dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Stop" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="185dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="199dp"
+        android:ems="10"
+        android:hint="输入歌曲名字"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/wegan" />
+
+</RelativeLayout>
